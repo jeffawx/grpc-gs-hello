@@ -1,8 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    `java-library`
-    kotlin("jvm") version "1.5.31"
+    kotlin("jvm")
 }
 
 group = "demo"
@@ -16,6 +15,8 @@ allprojects {
 }
 
 subprojects {
+    apply(plugin = "org.gradle.java-library")
+
     java.sourceCompatibility = JavaVersion.VERSION_11
 
     tasks {
