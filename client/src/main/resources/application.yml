@@ -1,0 +1,10 @@
+grpc:
+  server:
+    enabled: false
+  client:
+    channels:
+      hello:
+        host: localhost
+        port: 8090
+        tls:
+          enabled: false
