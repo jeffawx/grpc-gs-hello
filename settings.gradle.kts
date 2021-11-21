@@ -1,10 +1,11 @@
 pluginManagement {
     plugins {
         kotlin("jvm") version "1.5.31"
-        id("com.airwallex.grpc-spring") version "1.1.0"
+        id("com.airwallex.grpc-spring") version "1.1.1-SNAPSHOT"
     }
 
     repositories {
+        mavenLocal()
         maven("https://artistry.airwallex.com/repository/lib-release/libs-release-local")
         gradlePluginPortal()
     }

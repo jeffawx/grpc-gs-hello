@@ -8,3 +8,5 @@ grpc:
         port: 8090
         tls:
           enabled: false
+
+logging.level.com.airwallex: TRACE
