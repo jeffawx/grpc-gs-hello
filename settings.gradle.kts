@@ -1,7 +1,7 @@
 pluginManagement {
     plugins {
-        kotlin("jvm") version "1.5.31"
-        id("com.airwallex.grpc-spring") version "1.1.3"
+        kotlin("jvm") version "1.6.10"
+        id("com.airwallex.grpc-spring") version "1.1.5"
     }
 
     repositories {
