@@ -8,7 +8,7 @@ import org.springframework.context.event.EventListener
 import org.springframework.stereotype.Component
 
 @Component
-class HelloClient(@GrpcClient(channel = "hello") private val service: HelloRpc) {
+class HelloClient(@GrpcClient("hello") private val service: HelloRpc) {
 
     private val logger = LoggerFactory.getLogger(javaClass)
 
