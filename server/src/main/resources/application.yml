@@ -1,5 +1,0 @@
-grpc:
-  server:
-    enable-server-reflection: true #for grpcurl
-
-logging.level.com.airwallex: TRACE
